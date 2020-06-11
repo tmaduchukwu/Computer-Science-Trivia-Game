@@ -9,11 +9,10 @@ to initialize them.
 public class TriviaQuestion { //fields
    private String question;
    private String answer;
-   private int value;
-   TriviaQuestion(String question, String answer, int value) { //constructor
+   
+   TriviaQuestion(String question, String answer) { //constructor
       this.question = question;
       this.answer = answer;
-      this.value = value;
    }
    public String getQuestion() { //accessor
       return this.question;
@@ -21,7 +20,5 @@ public class TriviaQuestion { //fields
    public String getAnswer() { //accessor
       return this.answer;
    }
-   public int getValue() { //accessor
-      return this.value;
-   }
+  
 }
