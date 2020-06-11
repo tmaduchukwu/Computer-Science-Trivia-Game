@@ -40,15 +40,15 @@ public class TriviaDriver {
    public TriviaQuestion[] populateQuestions() {
    //this is an array of all the questions and answers for the quiz
       TriviaQuestion ob1 = new TriviaQuestion
-      ("The first Pokemon that Ash receives from Professor Oak", "pikachu", 1);
+      ("The first Pokemon that Ash receives from Professor Oak", "pikachu");
       TriviaQuestion ob2 = new TriviaQuestion
-      ("Erling Kagge skiied into here alone on January 7, 1993", "south pole", 2);
+      ("Erling Kagge skiied into here alone on January 7, 1993", "south pole");
       TriviaQuestion ob3 = new TriviaQuestion
-      ("1997 British band that produced 'Tub Thumper'", "chumbawumba", 2);
+      ("1997 British band that produced 'Tub Thumper'", "chumbawumba");
       TriviaQuestion ob4 = new TriviaQuestion
-      ("Who is he tallest person record (8ft. 11 in) that has lived?", "Robert Wadlow", 3);
+      ("Who is he tallest person record (8ft. 11 in) that has lived?", "Robert Wadlow");
       TriviaQuestion ob5 = new TriviaQuestion
-      ("PT Barnum said 'This way to the ____' to attract people to the exit.", "egress", 1);
+      ("PT Barnum said 'This way to the ____' to attract people to the exit.", "egress");
       return new TriviaQuestion[]{ob1, ob2, ob3, ob4, ob5};
    }
 }
