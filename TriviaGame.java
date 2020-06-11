@@ -32,14 +32,14 @@ public class TriviaGame {
       Scanner sc = new Scanner(System.in);
       String question = questions[questionNum - 1].getQuestion();
       String answer = questions[questionNum - 1].getAnswer();
-      int value = questions[questionNum - 1].getValue();
+      //int value = questions[questionNum - 1].getValue();
       System.out.println("\nQuestion " + questionNum);
-      System.out.print("For " + value + " point...");
+      //System.out.print("For " + + " point...");
       System.out.println(question);
       String answer1 = sc.nextLine();
       if (answer1.equalsIgnoreCase(answer)) { 
          System.out.println("That is correct!");
-         this.score += value;
+         this.score += 1;
       }
       else {
          System.out.println("Wrong. The correct answer is " + answer);
